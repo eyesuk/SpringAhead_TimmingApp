@@ -9,7 +9,7 @@ import openpyxl as xls
 startrow = 2
 
 # Location of the timing app report in excel format
-path = "~/Downloads/test.xlsx"
+path = "~/Downloads/samplereport.xlsx"
 
 wb = xls.load_workbook(path)
 sheet = wb.active
